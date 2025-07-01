@@ -66,6 +66,7 @@ Ejecutar el servidor de desarrollo:
 
 npm run dev
 
+```
 ---
 ##Uso
 Acceder a la interfaz web en http://localhost:5173 (puerto por defecto).
