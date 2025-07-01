@@ -1,57 +1,94 @@
+# LegalLens
+
+## Descripción
+
+LegalLens es una aplicación web que permite simplificar y explicar textos legales complejos de manera clara y accesible para cualquier persona. Utiliza un modelo de lenguaje avanzado alojado localmente (Lexi LLaMA 3 8B Uncensored) para procesar y resumir textos legales pegados por el usuario.
+
+Actualmente, LegalLens ofrece la funcionalidad de pegar texto directamente en el formulario para obtener su explicación simplificada. La carga y procesamiento de archivos (PDF, DOCX, TXT) está en desarrollo y estará disponible en próximas versiones.
 
 ---
 
-## 🇪🇸 `README-es.md` (Versión en español)
+## Características principales
 
-```markdown
-# LearnLegal
-
-**LearnLegal** es una aplicación web fullstack que simplifica textos legales complejos mediante inteligencia artificial. Su objetivo es ayudar a cualquier persona a entender contratos, normativas y documentos legales en lenguaje claro y accesible.
-
----
-
-## 🚀 Funcionalidades
-
-- Subida o pegado de texto legal
-- Explicación simplificada usando IA
-- Análisis por secciones o artículos
-- Autenticación segura con JWT
-- Historial de documentos por usuario
-- (Opcional) Exportación a PDF del texto simplificado
+- Interfaz sencilla y responsiva para pegar textos legales.
+- Procesamiento local mediante un modelo de lenguaje avanzado que simplifica y explica el contenido.
+- Respuestas rápidas y personalizadas en lenguaje claro y accesible.
+- Backend construido con Flask, que se comunica con el modelo local alojado en LM Studio.
+- Frontend desarrollado en React con DaisyUI para una experiencia visual moderna y adaptativa.
 
 ---
 
-## 🛠 Tecnologías
+## Estado actual
 
-- **Frontend**: React
-- **Backend**: Flask (Python)
-- **Autenticación**: JWT
-- **Base de datos**: PostgreSQL (opcional para historial y usuarios)
-- **API externa**: OpenAI (GPT)
+- **Funcionalidad activa:** Pegado y procesamiento de textos legales.
+- **Funcionalidad en desarrollo:** Carga y extracción de texto desde archivos PDF, DOCX y TXT.
 
 ---
 
-## 📦 Estructura del proyecto
+## Tecnologías utilizadas
 
-learnlegal/
-├── client/ # Frontend en React
-├── server/ # Backend en Flask
-├── README.md
-├── LICENSE
+- **Frontend:** React, DaisyUI, TailwindCSS.
+- **Backend:** Python, Flask, Requests, Flask-CORS.
+- **Modelo de lenguaje:** Lexi LLaMA 3 8B Uncensored ejecutado en LM Studio localmente.
+- **Procesamiento de texto:** Textract (en desarrollo para extracción desde archivos).
 
 ---
 
-## 🧑‍💻 Instalación (modo local)
+## Requisitos
 
-### Frontend
+- Python 3.13 o superior.
+- Node.js y npm.
+- LM Studio con modelo Lexi LLaMA 3 8B Uncensored configurado y en ejecución local.
+- Entornos virtuales gestionados con Pipenv.
+
+---
+
+## Instalación y ejecución
+
+### Backend
+
+1. Clonar el repositorio y acceder a la carpeta `backend`.
+2. Instalar dependencias y activar entorno virtual:
+
 ```bash
-cd client
-npm install
-npm run dev
-Backend
-cd server
 pipenv install
-pipenv run dev
-📄 Licencia
-Este proyecto NO es de código abierto. Todos los derechos reservados © 2025 Tomás Sarciat Roch.
-Queda prohibido el uso, distribución o modificación sin autorización expresa.
+pipenv shell
+Ejecutar el servidor Flask:
+
+bash
+Copiar
+python app.py
+Frontend
+Acceder a la carpeta frontend.
+
+Instalar dependencias:
+
+bash
+Copiar
+npm install
+Ejecutar el servidor de desarrollo:
+
+bash
+Copiar
+npm run dev
+Uso
+Acceder a la interfaz web en http://localhost:5173 (puerto por defecto).
+
+Pegar el texto legal en el área de texto.
+
+Hacer clic en “Procesar Texto Legal” para obtener una explicación simplificada.
+
+En futuras versiones se podrá subir un archivo para procesar su contenido.
+
+Contribuciones
+Agradecemos cualquier colaboración o sugerencia para mejorar LegalLens.
+Por favor, abrir un issue o enviar un pull request con tus aportes.
+
+Licencia
+El código fuente de LegalLens es propiedad exclusiva del autor y está protegido.
+No se permite la copia, distribución o uso sin autorización expresa.
+
+Contacto
+Desarrollador: Tomás Sarciat Roch
+Email: tsarciatroch@gmail.com
+Málaga, España
