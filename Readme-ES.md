@@ -68,7 +68,9 @@ npm run dev
 
 ```
 ---
+
 #Uso
+
 Acceder a la interfaz web en http://localhost:5173 (puerto por defecto).
 
 Pegar el texto legal en el área de texto.
@@ -77,15 +79,21 @@ Hacer clic en “Procesar Texto Legal” para obtener una explicación simplific
 
 En futuras versiones se podrá subir un archivo para procesar su contenido.
 
+
 #Contribuciones
+
 Agradecemos cualquier colaboración o sugerencia para mejorar LegalLens.
 Por favor, abrir un issue o enviar un pull request con tus aportes.
 
+
 #Licencia
+
 El código fuente de LegalLens es propiedad exclusiva del autor y está protegido.
 No se permite la copia, distribución o uso sin autorización expresa.
 
+
 #Contacto
+
 Desarrollador: Tomás Sarciat Roch // Waloleitor
 Email: tsarciatroch@gmail.com
 Málaga, España
