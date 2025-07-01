@@ -39,10 +39,6 @@ learnlegal/
 ├── README.md
 ├── LICENSE
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## 🧑‍💻 Instalación (modo local)
@@ -53,9 +49,6 @@ cd client
 npm install
 npm run dev
 Backend
-bash
-Copiar
-Editar
 cd server
 pipenv install
 pipenv run dev
