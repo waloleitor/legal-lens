@@ -1,7 +1,4 @@
 🇺🇸 README.md (English version)
-markdown
-Copiar
-Editar
 # LearnLegal
 
 **LearnLegal** is a fullstack web application that simplifies complex legal documents using artificial intelligence. It empowers users to understand contracts, laws, and other legal texts in clear, accessible language.
@@ -37,10 +34,6 @@ learnlegal/
 ├── README.md
 ├── LICENSE
 
-yaml
-Copiar
-Editar
-
 ---
 
 ## 🧑‍💻 Installation (local dev)
@@ -51,9 +44,6 @@ cd client
 npm install
 npm run dev
 Backend
-bash
-Copiar
-Editar
 cd server
 pipenv install
 pipenv run dev
