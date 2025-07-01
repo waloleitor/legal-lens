@@ -21,7 +21,7 @@ Actualmente, LegalLens ofrece la funcionalidad de pegar texto directamente en el
 ## Estado actual
 
 - **Funcionalidad activa:** Pegado y procesamiento de textos legales.
-- **Funcionalidad en desarrollo:** Carga y extracción de texto desde archivos PDF, DOCX y TXT.
+- **Funcionalidad en desarrollo:** Carga y extracción de texto desde archivos PDF, DOCX y TXT. (aún en proceso)
 
 ---
 
@@ -55,23 +55,19 @@ pipenv install
 pipenv shell
 Ejecutar el servidor Flask:
 
-bash
-Copiar
 python app.py
 Frontend
 Acceder a la carpeta frontend.
 
 Instalar dependencias:
 
-bash
-Copiar
 npm install
 Ejecutar el servidor de desarrollo:
 
-bash
-Copiar
 npm run dev
-Uso
+
+---
+##Uso
 Acceder a la interfaz web en http://localhost:5173 (puerto por defecto).
 
 Pegar el texto legal en el área de texto.
@@ -80,15 +76,15 @@ Hacer clic en “Procesar Texto Legal” para obtener una explicación simplific
 
 En futuras versiones se podrá subir un archivo para procesar su contenido.
 
-Contribuciones
+##Contribuciones
 Agradecemos cualquier colaboración o sugerencia para mejorar LegalLens.
 Por favor, abrir un issue o enviar un pull request con tus aportes.
 
-Licencia
+##Licencia
 El código fuente de LegalLens es propiedad exclusiva del autor y está protegido.
 No se permite la copia, distribución o uso sin autorización expresa.
 
-Contacto
-Desarrollador: Tomás Sarciat Roch
+##Contacto
+Desarrollador: Tomás Sarciat Roch // Waloleitor
 Email: tsarciatroch@gmail.com
 Málaga, España
