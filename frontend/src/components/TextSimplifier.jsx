@@ -19,7 +19,6 @@ export default function TextSimplifier() {
         };
         reader.readAsText(file);
     } else {
-      // No intentamos leer aquí otros tipos: los procesa el backend
         setTextoManual("");
     }
     };
